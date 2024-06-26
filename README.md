@@ -36,3 +36,8 @@ I set up:
 - Displays vulnerabilities categorized by severity: Medium, Low, Info.
 ![Scan Info](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20info.png?raw=true)
 
+- Example Vulnerability: SMB signing is not required on the remote SMB server, which allows for man-in-the-middle attacks.
+![SMB Signing](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20smb%20details.png?raw=true)
+
+- Example Vulnerability: The remote host is listening on UDP port 137 or TCP port 445, and responds to NetBIOS or SMB requests.
+![SMB NetBios](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20netbios%20details.png?raw=true)

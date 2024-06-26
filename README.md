@@ -17,4 +17,5 @@ I set up:
 - Users can select from various predefined scan templates tailored to different types of vulnerabilities and scenarios, making it easier to identify and mitigate security risks in their networks.
 - The sidebar offers easy access to scan policies, plugin configurations, and additional tools for comprehensive security management.
 
+![Nessus Dashboard](https://github.com/0xFroggi/NessusProject/blob/main/images/nessus%20dashboard.png?raw=true)
 

@@ -26,3 +26,13 @@ I set up:
 - **Effective Management**: Schedule scans, set notifications, and configure policies to ensure thorough and timely scans.
 
 ![Basic Network Scan](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20-%20basic.png?raw=true)
+
+**Results of the scan:** 
+
+- Shows the number of hosts scanned (1 in this case).
+![Scan done](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20done.png?raw=true)
+
+- Summarizes the vulnerabilities found, categorized by severity.
+- Displays vulnerabilities categorized by severity: Medium, Low, Info.
+![Scan Info](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20info.png?raw=true)
+

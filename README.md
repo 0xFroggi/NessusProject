@@ -19,3 +19,10 @@ I set up:
 
 ![Nessus Dashboard](https://github.com/0xFroggi/NessusProject/blob/main/images/nessus%20dashboard.png?raw=true)
 
+2. Basic Network Scan 
+- **Easy Setup**: Users can quickly name the scan, add a description, and select target systems (e.g., IP address `10.0.3.5` for a vulnerable Windows VM).
+- **Organized Scans**: Save configurations in folders like "My Scans" for easy retrieval.
+- **Detailed Settings**: Access detailed configurations through the sidebar categories (Basic, Discovery, Assessment, Report, Advanced).
+- **Effective Management**: Schedule scans, set notifications, and configure policies to ensure thorough and timely scans.
+
+![Basic Network Scan](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20-%20basic.png?raw=true)

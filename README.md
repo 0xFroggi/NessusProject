@@ -27,7 +27,7 @@ I set up:
 
 ![Basic Network Scan](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20-%20basic.png?raw=true)
 
-**Results of the scan:** 
+Results of the scan:
 
 - Shows the number of hosts scanned (1 in this case).
 ![Scan done](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20done.png?raw=true)

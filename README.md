@@ -12,7 +12,8 @@ I set up:
 - **Windows 10 Virtual Machine**: Made intentionally vulnerable by stopping automatic updates, turning off the firewall, and installing outdated, insecure software.
 - **Ubuntu Linux Virtual Machine**: Installed and configured with Nessus Vulnerability Scanner software to scan and detect security issues on the Windows machine.
 
-### <span style="color:blue">1. Nessus Vulnerability Scanner Dashboard</span>
+### ![1. Nessus Vulnerability Scanner Dashboard](https://img.shields.io/badge/1.%20Nessus%20Vulnerability%20Scanner%20Dashboard-blue)
+
 - The Nessus dashboard is designed to provide an intuitive interface for security professionals to manage vulnerability scans effectively.
 - Users can select from various predefined scan templates tailored to different types of vulnerabilities and scenarios, making it easier to identify and mitigate security risks in their networks.
 - The sidebar offers easy access to scan policies, plugin configurations, and additional tools for comprehensive security management.

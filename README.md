@@ -80,6 +80,12 @@ I set up:
 - An unauthenticated attacker can send a specially crafted request to a server running a vulnerable version of Log4j, leading to arbitrary code execution and potentially full system compromise.
 ![Log4j Details](https://github.com/0xFroggi/NessusProject/blob/main/images/log4j%20details.png?raw=true)
 
+## Summary
+In this project; 
+I set up a homelab environment to test Nessus's capabilities in identifying and addressing security flaws. 
+I configured a vulnerable Windows machine and used Nessus installed on an Ubuntu Linux machine to perform detailed scans. 
+The scans successfully identified various vulnerabilities, including critical issues like the Log4j remote code execution. Through this project, I demonstrated the effectiveness of Nessus in detecting and mitigating security risks, enhancing my skills in vulnerability assessment and system security. 
+This project provided valuable hands-on experience in using advanced security tools to protect systems from potential threats.
 
 
 

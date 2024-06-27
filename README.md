@@ -12,19 +12,17 @@ I set up:
 - **Windows 10 Virtual Machine**: Made intentionally vulnerable by stopping automatic updates, turning off the firewall, and installing outdated, insecure software.
 - **Ubuntu Linux Virtual Machine**: Installed and configured with Nessus Vulnerability Scanner software to scan and detect security issues on the Windows machine.
 
-###1. Nessus Vulnerability Scanner Dashboard
+### 1. Nessus Vulnerability Scanner Dashboard
 - The Nessus dashboard is designed to provide an intuitive interface for security professionals to manage vulnerability scans effectively.
 - Users can select from various predefined scan templates tailored to different types of vulnerabilities and scenarios, making it easier to identify and mitigate security risks in their networks.
 - The sidebar offers easy access to scan policies, plugin configurations, and additional tools for comprehensive security management.
-
 ![Nessus Dashboard](https://github.com/0xFroggi/NessusProject/blob/main/images/nessus%20dashboard.png?raw=true)
 
-###2. Basic Network Scan 
+### 2. Basic Network Scan 
 - **Easy Setup**: Users can quickly name the scan, add a description, and select target systems (e.g., IP address `10.0.3.5` for a vulnerable Windows VM).
 - **Organized Scans**: Save configurations in folders like "My Scans" for easy retrieval.
 - **Detailed Settings**: Access detailed configurations through the sidebar categories (Basic, Discovery, Assessment, Report, Advanced).
 - **Effective Management**: Schedule scans, set notifications, and configure policies to ensure thorough and timely scans.
-
 ![Basic Network Scan](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20-%20basic.png?raw=true)
 
 **Results of the scan:**
@@ -43,7 +41,7 @@ I set up:
 ![SMB NetBios](https://github.com/0xFroggi/NessusProject/blob/main/images/initial%20scan%20netbios%20details.png?raw=true)
 
 
-###3. Credential Scan and Configuration of the Windows Machine for the Scan
+### 3. Credential Scan and Configuration of the Windows Machine for the Scan
 - At first, user for the Windows virtual machine privileges escalated by confugring Windows Registry to access administrator level resources. It will enhance the capability of the vulnerability scan.
 - Location: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System` provides the registry path to make necessary adjustments for access control.
 - Key: `LocalAccountTokenFilterPolicy` set to `1`.

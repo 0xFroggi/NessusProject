@@ -63,4 +63,32 @@ I set up:
 ![Credential Scan Detail](https://github.com/0xFroggi/NessusProject/blob/main/images/crendential%20scan%20-%20critical%20details.png?raw=true)
 
 
+### 4. Testing Scanning Capabilities for Vulnerable Software
+- Downloaded a vulnerable version of the Minecraft server known to include the Log4j vulnerability.
+- Example path: `C:\Users\nessusadmin\Downloads\META-INF\libraries\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar`.
+![Vuln Software](https://github.com/0xFroggi/NessusProject/blob/main/images/vuln%20minecraft.png?raw=true)
+
+- Configured the scan to target the specific IP address of the machine hosting the vulnerable Minecraft server.
+- The scan identified several critical vulnerabilities, including multiple issues related to Apache Log4j.
+- Key vulnerabilities detected:
+    - Apache Log4j < 2.15.0 Remote Code Execution (Windows)
+    - Other vulnerabilities with varying CVSS scores and severity levels.
+![Log4j Overview](https://github.com/0xFroggi/NessusProject/blob/main/images/log4j%20scan%20overwiew.png?raw=true)
+
+- Critical Vulnerability: Apache Log4j < 2.15.0 Remote Code Execution
+- The Log4j vulnerability, specifically identified as CVE-2021-44228, allows attackers to perform remote code execution by exploiting the JNDI lookup feature.
+- An unauthenticated attacker can send a specially crafted request to a server running a vulnerable version of Log4j, leading to arbitrary code execution and potentially full system compromise.
+![Log4j Details](https://github.com/0xFroggi/NessusProject/blob/main/images/log4j%20details.png?raw=true)
+
+
+
+
+
+
+
+
+
+
+
+
 
